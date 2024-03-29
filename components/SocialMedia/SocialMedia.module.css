@@ -1,0 +1,28 @@
+.container {
+    padding: 3% 0;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.social_media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.social_media a {
+    text-decoration: none;
+}
+
+.icon {
+    color: brown;
+    size: 34px;
+}

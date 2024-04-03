@@ -51,7 +51,7 @@ const Schedule = () => {
             </div>
 
             <Image
-                src="/assets/illustration2.jpeg"
+                src="/assets/illustration_schedule.jpeg"
                 alt="Description de l'image"
                 width={500}
                 height={700}

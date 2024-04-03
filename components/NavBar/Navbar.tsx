@@ -8,7 +8,7 @@ const NavBar = () => {
 
     const tab = [
         { name: "Accueil", link: "/" },
-        { name: "Qui sommes nous", link: "/" },
+        { name: "Qui sommes nous", link: "/qui_sommes_nous" },
         { name: "Nous contacter", link: "/nous_contacter" },
 
     ]

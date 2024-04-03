@@ -16,7 +16,7 @@ const OurReason = () => {
     return (
         <div className={styles.container}>
             <Image
-                src="/assets/illustration.jpeg"
+                src="/assets/illustration_presentation.jpeg"
                 alt="Description de l'image"
                 width={500}
                 height={700}

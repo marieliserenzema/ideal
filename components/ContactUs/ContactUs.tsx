@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styles from '@/components/ContactUs/ContactUs.module.css';
+import { sendFormData } from '@/client/client';
+import FormDataModel from '@/models/FormDataModel';
+
 
 const ContactUS = () => {
     const title = "Nous contacter";
@@ -15,9 +18,15 @@ const ContactUS = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e: { preventDefault: () => void; }) => {
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-        console.log(formData);
+        const newFormData: FormDataModel = {
+            name: formData.name,
+            email: formData.email,
+            object: formData.object,
+            message: formData.object
+        };
+        sendFormData(newFormData);
     };
 
 

@@ -4,23 +4,23 @@ import OfferCard from '../OfferCard/OfferCard';
 
 const OurOffer = () => {
 
-    const title = "Notre offre";
+    const title = "Que proposons nous ?";
     const offers = [
         {
             title: "Art de la table 🍽️",
-            image: "/assets/degustation.jpeg"
+            image: "/assets/illustration_tasting.jpeg"
         },
         {
             title: "Épicerie fine 🧀",
-            image: "/assets/degustation.jpeg"
+            image: "/assets/illustration_tasting.jpeg"
         },
         {
             title: "Cave à vins 🍷",
-            image: "/assets/degustation.jpeg"
+            image: "/assets/illustration_tasting.jpeg"
         },
         {
             title: "Dégustation 😋",
-            image: "/assets/degustation.jpeg"
+            image: "/assets/illustration_tasting.jpeg"
         }
     ]
 

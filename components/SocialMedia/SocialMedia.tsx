@@ -18,13 +18,12 @@ const SocialMedia = () => {
                 <FontAwesomeIcon icon={faFacebook} style={{ fontSize: '50px', color: 'brown' }} />
                 <a href={instagramURL}>
                     <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '50px', color: 'brown' }} />
-
                 </a>
 
                 <FontAwesomeIcon icon={faTwitter} style={{ fontSize: '50px', color: 'brown' }} />
-
             </div>
         </div>
     );
 }
+
 export default SocialMedia;

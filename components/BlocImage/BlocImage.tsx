@@ -7,7 +7,7 @@ const BlocImage = () => {
     return (
         <div className={styles.container}>
             <Image
-                src="/assets/table_deco.jpeg"
+                src="/assets/table_service.jpeg"
                 alt="Description de l'image"
                 width={500}
                 height={500}
@@ -15,7 +15,7 @@ const BlocImage = () => {
             />
 
             <Image
-                src="/assets/planche_charcuterie.jpg"
+                src="/assets/charcuterie_board.jpeg"
                 alt="Description de l'image"
                 width={500}
                 height={500}

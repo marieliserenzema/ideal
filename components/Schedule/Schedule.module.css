@@ -17,9 +17,6 @@
     font-weight: 100;
     font-size: 20px;
     color: brown;
-
-
-
 }
 
 .title {
@@ -46,5 +43,5 @@
 
 .img {
     width: 40%;
-    padding: 0 5%;
+    margin: 0 5%;
 }
